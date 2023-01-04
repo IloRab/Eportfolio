@@ -1,0 +1,24 @@
+.projet{
+  border: solid;
+  border-color: #f6f4e6;
+}
+
+.liste_projet{
+  margin-top: 30px;
+  color: #f6f4e6;
+  display: flex;
+  
+}
+
+.projet{
+    text-align: center;
+    margin-left: 5px;
+}
+
+@media (max-width: 901px) {
+  .liste_projet{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}

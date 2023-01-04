@@ -3,6 +3,40 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.intro{
+  border: solid ;
+  border-color: #f6f4e6;
+  border-radius: 20px;
+  padding: 10px 0 10px 0;
+}
+
+.title{
+  margin : auto;
+  display: flex;
+  justify-content: center;
+  color : #f6f4e6;
+  font-weight: bold;
+  border: solid;
+  border-color: #f6f4e6;
+  border-radius: 20px;
+  width : 70%;
+}
+
+.text_paragraph{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color : #f6f4e6;
+  width : 80%;
+}
+
+.element{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .navMenu{
     display: flex;
     justify-content: center;
@@ -11,6 +45,7 @@ body {
 
 .navMenu a {
     color: #f6f4e6;
+    margin: 20px 0 20px 0;
     text-decoration: none;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -22,6 +57,27 @@ body {
 .navMenu a:hover {
   color: #3ae3fd;;
 }
+
+#presentation-text{
+  font-style: italic;
+
+}
+
+.experience{
+  border: solid;
+  border-color: #f6f4e6;
+  text-align: center;
+}
+
+.liste_experience{
+  margin-top: 30px;
+  color: #f6f4e6;
+  display: flex;
+  flex-wrap: wrap;
+  gap : 20px
+
+}
+
 
 
 
