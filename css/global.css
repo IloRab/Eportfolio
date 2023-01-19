@@ -3,28 +3,22 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.intro{
-  border: solid ;
-  border-color: #f6f4e6;
-  border-radius: 20px;
-  padding: 10px 0 10px 0;
-}
-
 .title{
   margin : auto;
   padding-top:15px;
   padding-bottom: 15px;
   display: flex;
   justify-content: center;
-  color : #f6f4e6;
+  color : black;
   font-weight: bold;
   border: solid;
-  border-color: #f6f4e6;
+  background-color: whitesmoke;
   border-radius: 20px;
   width : 70%;
 }
 
 .text_paragraph{
+  
   margin: auto;
   text-align: center;
   justify-content: center;
@@ -62,19 +56,20 @@ body {
 .experience{
   border: solid;
   border-color: #f6f4e6;
+  background-color: white;
+  color: black;
   margin: auto;
   text-align: center;
   width: 70%;
-  border-radius:30px;
+  border-radius:20px;
 
 }
 .experience img{
   width: 30%;
   height: 30%;
   float: left;
-  border-radius: 30px;
+  border-radius: 20px;
 }
-
 
 
 .liste_experience{
@@ -112,11 +107,22 @@ body {
 }
 
 .CVS{
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 .CVS img{
   width: 20%;
   height: 10%;
+}
+
+.text_paragraph p{
+  color: black;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: solid;
+  border-color: #f6f4e6;
+  border-radius: 20px;
 }
 
 
