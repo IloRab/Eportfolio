@@ -1,24 +1,42 @@
 .projet{
-  border: solid;
-  border-color: #f6f4e6;
+    border: solid;
+    border-color: #f6f4e6;
+    margin: auto 5px auto 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding: auto;
+    border-radius: 30px;
+    
 }
 
 .liste_projet{
   margin-top: 30px;
   color: #f6f4e6;
   display: flex;
-  
+  gap : 20px;
 }
 
-.projet{
-    text-align: center;
-    margin-left: 5px;
+.img_prj{
+  width: 70%;
+  height: 40%;
 }
+
 
 @media (max-width: 901px) {
   .liste_projet{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.projet{
+  
+  text-align: center;
+  margin: auto;
+  height: auto;
+  border-radius: 30px;
+}
+.img_prj{
+  width: 50%;
+  height: 50%;
 }
 }

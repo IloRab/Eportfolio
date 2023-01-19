@@ -12,6 +12,8 @@ body {
 
 .title{
   margin : auto;
+  padding-top:15px;
+  padding-bottom: 15px;
   display: flex;
   justify-content: center;
   color : #f6f4e6;
@@ -30,12 +32,7 @@ body {
   width : 80%;
 }
 
-.element{
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+
 
 .navMenu{
     display: flex;
@@ -60,16 +57,28 @@ body {
 
 #presentation-text{
   font-style: italic;
-
 }
 
 .experience{
   border: solid;
   border-color: #f6f4e6;
+  margin: auto;
   text-align: center;
+  width: 70%;
+  border-radius:30px;
+
+}
+.experience img{
+  width: 30%;
+  height: 30%;
+  float: left;
+  border-radius: 30px;
 }
 
+
+
 .liste_experience{
+  justify-content: center;
   margin-top: 30px;
   color: #f6f4e6;
   display: flex;
@@ -78,6 +87,37 @@ body {
 
 }
 
+.btn{
+  background-color: #272727;
+  color: azure;
+  border: solid;
+  border-color:azure;
+  border-radius: 30px;
+}
+
+.btn:hover{
+  background-color: azure;
+  color: #272727;
+  border-color:#272727;
+}
+
+.contact{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.contact a img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.CVS{
+  margin-bottom: 50px;
+}
+.CVS img{
+  width: 20%;
+  height: 10%;
+}
 
 
 
