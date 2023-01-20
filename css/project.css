@@ -1,20 +1,30 @@
 .projet{
-    border: solid;
-    border-color: #f6f4e6;
-    margin: auto 5px auto 5px;
-    padding-bottom: 10px;
-    text-align: center;
-    padding: auto;
-    border-radius: 30px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  max-width: var(--max-card-size);
+  border: solid whitesmoke;
+  border-radius: 15px;
+
     
 }
 
-.liste_projet{
-  margin-top: 30px;
-  color: #f6f4e6;
-  display: flex;
-  gap : 20px;
+.projet:hover{
+  transform: scale(1.01);
 }
+
+.liste_projet{
+  --max-card-size: 30rem;
+  --content-spacing: 0.825rem;
+  --section-spacing: 1rem;
+
+  margin-top: 30px;
+  display: flex;
+  gap: var(--section-spacing);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 .img_prj{
   width: 70%;
@@ -22,21 +32,23 @@
 }
 
 
-@media (max-width: 901px) {
+@media only screen and (min-width: 320px){
   .liste_projet{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-.projet{
-  
+    
+  }
+  .projet{
   text-align: center;
   margin: auto;
   height: auto;
-  border-radius: 30px;
+  width: 100%;
+  /* border-radius: 30px; */
 }
-.img_prj{
-  width: 50%;
-  height: 50%;
+  .img_prj{
+    width: 50%;
+   height: 50%;
 }
 }
+
