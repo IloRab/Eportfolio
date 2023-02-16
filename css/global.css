@@ -37,6 +37,9 @@ body {
     justify-content: center;
     gap: 1em;
     width: 100%;
+    animation: 2s alternate slidein;
+
+  
 }
 
 .navMenu a {
@@ -48,6 +51,8 @@ body {
     font-weight: 500;
     display: inline-block;
     text-align: center;
+
+    
 }
 
 .navMenu a:hover {
@@ -84,6 +89,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap : 20px
+  
+  
 
 }
 
@@ -135,3 +142,19 @@ footer{
 }
 
 
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.invert {
+  filter: invert(1);
+}
